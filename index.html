@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>:)</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">            
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+            integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" 
+            integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" type="text/css" href="css/countercss.css"/>
+        <script type="text/javascript" src="js/counter.js"></script>
+
+    </head>
+    <body class="body" onLoad="atualizaContador()">
+        <div class="container-fluid">
+            <div class="page-header">
+                <h1>Seja bem vindo(a)! <small>Estamos ansiosos para te receber :)</small></h1>
+            </div>
+            <div class="row">
+                <div class="col-xs-2 col-md-2"></div>
+                <div class="col-xs-8 col-md-8">
+                    <div class="jumbotron">
+                        <p>
+                            <i>"Você é tão pequeno, mas nos desperta sentimentos tão grandes! </br>
+                                A única coisa que queremos é te proteger e acolher. </br>
+                                E com certeza você vai ter isso para sempre." </br>
+                            </i>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xs-2 col-md-2"></div>
+            </div>
+            <div class="row">
+                <div class="col-xs-2 col-md-2"></div>
+                <div class="col-xs-8 col-md-8">
+                    <div class="counter-class">
+                        <span id="dias"></span>
+                        <span id="hora"></span>
+                        <span id="minuto"></span>
+                        <span id="segundo"></span>                      
+                    </div>                        
+                </div>
+                <div class="col-xs-2 col-md-2"></div>
+            </div>
+            <div class="row">
+                <div class="col-xs-1 col-md-1"></div>
+                <div class="col-xs-10 col-md-10">
+                    <div class="countProgress">
+                        <span class="span-value" id="span-value"></span>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active progress-bar-danger" role="progressbar" 
+                                 aria-valuemin="0" aria-valuemax="100" id="progressBar" style="width: 0px;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-1 col-md-1"></div>
+            </div>               
+        </div>
+    </body>
+</html>
+        
