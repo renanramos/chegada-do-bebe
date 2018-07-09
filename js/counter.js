@@ -8,7 +8,7 @@ function atualizaContador()
 {  
     var hoje = new Date();  
     var dataFim = new Date(2018,11,19);
-    var dataFim = new Date(2018,11,19,08,00,00);
+    //var dataFim = new Date(2018,11,20,08,00,00);
 
     var ss = parseInt((dataFim - hoje) / 1000);  
     var mm = parseInt(ss / 60);  
@@ -24,12 +24,12 @@ function atualizaContador()
     var segundos = '';
     var porcentagem = '';
 
-    dias = (dd && dd > 1) ? dd+' dias, ' : (dd==1 ? '1 dia, ' : '');  
+    dias = (dd && dd > 1) ? dd +' dias, ' : (dd==1 ? '1 dia, ' : '');  
     horas = (toString(hh).length) ? hh+' hora(s), ' : '';  
     minutos = (toString(mm).length) ? mm+' min e ' : '';  
     segundos = ss+' seg';
 
-    porcentagem = (dd / 280) * 100;
+    porcentagem = (1 - (dd / 280)) * 100;
     
     if (dd+hh+mm+ss > 0) 
     {
