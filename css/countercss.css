@@ -36,6 +36,7 @@ img{
 
 .jumbotron{
     margin-top: 30px;
+    box-shadow: 8px 8px;
     background-color: rgba(90, 177, 248, 0.856);     
 }
 
@@ -49,12 +50,17 @@ img{
     margin-bottom: -10px;
 }
 
+.counter-class > span{
+    font-weight: bold;
+}
+
 .countProgress{
     margin-top: 5px;
 }
 
 .progress{
-    height: 20px;
+    height: 20px;    
+    box-shadow: 3px 3px;
 }
 
 #span-value{
