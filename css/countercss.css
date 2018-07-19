@@ -10,6 +10,7 @@ body{
 img{
     margin-bottom: 30px;
 }
+
 .page-header{
     border-radius: 15px;    
 }
@@ -28,6 +29,11 @@ img{
 
 .row{
     margin-top: 40px;
+}
+
+.row > div > p{
+    color: #000000;
+    font-size: 20px;
 }
 
 .counter-class{
@@ -61,6 +67,14 @@ img{
 .progress{
     height: 20px;    
     box-shadow: 3px 3px;
+}
+
+.form-group{
+    text-align: center;
+}
+
+#message{
+    margin-bottom: 150px;
 }
 
 #span-value{
