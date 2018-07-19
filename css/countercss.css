@@ -1,10 +1,29 @@
 body{
-    font-family: 'Josefin Sans', sans-serif;
-    text-align: center;    
+    text-align: center;
+    background-color: #c1e8f5;
+    background-image: url('../img/estrelas.png');
+    background-repeat: repeat; 
+    z-index: -1;
+    font-family: 'Work Sans', sans-serif;   
 }
 
 img{
     margin-bottom: 30px;
+}
+.page-header{
+    border-radius: 15px;    
+}
+
+.page-header > h1{    
+    font-size: 50px;
+}
+
+.page-header > h1 > b{
+    color: #000000;
+}
+
+.page-header > small{
+    font-size: 30px;
 }
 
 .row{
@@ -17,11 +36,21 @@ img{
 
 .jumbotron{
     margin-top: 30px;
-    background-color: rgba(90, 177, 248, 0.856);    
+    background-color: rgba(90, 177, 248, 0.856);     
+}
+
+.jumbotron > p{
+    text-align: center;
+    color: #000000;
+    font-size: 24px;
+}
+
+.counter-class{
+    margin-bottom: -10px;
 }
 
 .countProgress{
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .progress{
