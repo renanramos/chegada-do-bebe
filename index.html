@@ -22,7 +22,15 @@
         <link rel="icon" href="favicon/baby.png" type="image/x-icon"/>
 
         <link rel="stylesheet" type="text/css" href="css/countercss.css"/>
+        
+        <!-- Arquivo JS Firebase DB-->
+        <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase-database.js"></script>
+        
+        <!-- Arquivo JS contador -->
         <script type="text/javascript" src="js/counter.js"></script>
+
+        <script type="text/javascript" src="js/db.js"></script>
 
     </head>
     <body class="body" onLoad="atualizaContador()">    
@@ -43,7 +51,7 @@
                         </p>
                     </div><!-- end jumbotron -->
                 </div>
-                <div class="col-xs-2 col-md-2"></div>
+            <div class="col-xs-2 col-md-2"></div>
             </div>            
             <div class="row">
                 <div class="col-xs-2 col-md-2">
@@ -90,8 +98,7 @@
                 </div>
             </div>
             <div class="row">                
-                <div class="col-xs-2 col-md-2"></div>
-                <div class="col-xs-8 col-md-8">
+                <div class="col-xs-6 col-md-6">
                     <form>
                         <div class="form-group">
                             <input type="text" class="form-control" placeholder="Nome" id="inputName">
@@ -104,9 +111,14 @@
                         </div>
                     </form>
                 </div>
-                <div class="col-xs-2 col-md-2"></div>
+                <div class="col-xs-6 col-md-6">
+                    <div class="col-xs-12 col-md-12" id="mensagens">
+                        <div id="titulo"></div>
+                        <div id="mensagem">Minha mensagem</div>
+                    </div>
+                </div>
             </div>              
-        </div>
+        </div>        
     </body>
 </html>
         
