@@ -7,7 +7,7 @@
 function atualizaContador() 
 {  
     var hoje = new Date();  
-    var dataFim = new Date(2018,11,19);
+    var dataFim = new Date(2018,11,18);
 
     var ss = parseInt((dataFim - hoje) / 1000);  
     var mm = parseInt(ss / 60);  
