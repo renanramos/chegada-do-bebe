@@ -1,5 +1,5 @@
-# pregnancy-countdown
+# chegada-do-bebe
 
-Contador regressivo de dias/horas referente a data prevista de nascimento.
+Contador regressivo de dias referente a data prevista de nascimento.
 
-Acesse o <a href="https://renanramos.github.io/pregnancy-countdown/">link<a> do Git Pages para visualizar em execução.
+Acesse o <a href="https://renanramos.github.io/chegada-do-bebe/">link<a> do Git Pages para visualizar em execução.
