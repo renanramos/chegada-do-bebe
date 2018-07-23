@@ -78,10 +78,9 @@ img{
 }
 
 .list-group{
-    max-height: 250px;    
-    overflow: scroll;  
-    margin-top: -13px;  
-    margin-bottom: 30px;    
+    max-height: 300px;    
+    overflow: scroll;
+    margin-top: -13px;    
     border-radius: 20px;
 }
 
