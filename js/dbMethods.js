@@ -37,7 +37,7 @@ function readMessages(){
 
     ref.on("value", function(data){
                 
-        let objKey = Object.keys(data.val());
+        let objKey = Object.keys(data.val()).reverse();
 
         for(obj in objKey){
             let key = objKey[obj];
