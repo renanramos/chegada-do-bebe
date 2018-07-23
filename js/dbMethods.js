@@ -29,7 +29,6 @@ function writeMessages(){
         message: message,
         name: name,
     });
-
 }
 
 //lê as mensagens e adiciona na página
@@ -42,15 +41,9 @@ function readMessages(){
         for(obj in objKey){
             let key = objKey[obj];
             let mensagem = document.getElementById("mensagem");
-            let modalTitulo = document.getElementById("modalTitle");
-            let modalMessage =document.getElementById("modalMessage");
 
-            mensagem.innerHTML += '<a href="#" class="list-group-item" data-toggle="modal" data-target="#modal"><b>' + data.val()[key].name + ' <span class="badge">' + data.val()[key].date + '</span></b></br>' +
-                                    data.val()[key].message + '</a></br>';
-            
-            modalTitulo.innerHTML = data.val()[key].name + '  -  ' + data.val()[key].date;
-            modalMessage.innerHTML = data.val()[key].message;
-            
+            mensagem.innerHTML += '<a href="#" class="list-group-item"><b>' + data.val()[key].name + ' <span class="badge">' + data.val()[key].date + '</span></b></br>' +
+                                    data.val()[key].message + '</a></br>';          
         }
                 
     }, function(errorObject){

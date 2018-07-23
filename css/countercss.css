@@ -56,6 +56,13 @@ img{
     font-size: 24px;
 }
 
+.alert-success{
+    display: none;
+    border: solid 1px #32CD32;
+    font-weight: bold;
+    font-size: 16px;
+}
+
 .counter-class{
     margin-bottom: -10px;
 }
