@@ -24,12 +24,16 @@ function writeMessages(){
     var mm = today.getMonth()+1;
     var yy = today.getFullYear();
 
+    if((name == "" || name == null) && (message == "" || message == null)){
+        alert('Todos os campos devem ser preenchidos!');
+    }else{
+        ref.push({
+            date: dd + '/' + mm + '/' + yy,
+            message: message,
+            name: name,
+        });
+    }
     
-    ref.push({
-        date: dd + '/' + mm + '/' + yy,
-        message: message,
-        name: name,
-    });
 }
 
 //lê as mensagens e adiciona na página
