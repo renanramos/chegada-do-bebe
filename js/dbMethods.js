@@ -24,6 +24,7 @@ function writeMessages(){
     var mm = today.getMonth()+1;
     var yy = today.getFullYear();
 
+    
     ref.push({
         date: dd + '/' + mm + '/' + yy,
         message: message,
