@@ -85,7 +85,7 @@ img{
 }
 
 .list-group{
-    max-height: 350px;    
+    max-height: 450px;    
     overflow: scroll;
     margin-top: -13px;    
     border-radius: 20px;
@@ -98,6 +98,12 @@ img{
 
 .list-group-item > a:hover{
     background-color: #D3D3D3;    
+}
+
+legend{
+    font-size: 28px;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(112, 110, 110);
 }
 
 #span-value{
