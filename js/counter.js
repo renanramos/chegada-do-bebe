@@ -28,7 +28,7 @@ function atualizaContador()
     minutos = (toString(mm).length) ? mm+' min e ' : '';  
     segundos = ss+' seg';
 
-    porcentagem = (dd / 280) * 100;
+    porcentagem = ((280 - dd) / 280) * 100;
     
     if (dd+hh+mm+ss > 0) 
     {
