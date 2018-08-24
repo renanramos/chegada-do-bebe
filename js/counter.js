@@ -6,10 +6,10 @@
 
 function atualizaContador() 
 {  
-    var hoje = new Date();  
-    var dataFim = new Date(2018,11,18);
+    var hoje = new Date();
+    var dataIni = new Date(2018, 11, 11);
 
-    var ss = parseInt((dataFim - hoje) / 1000);  
+    var ss = parseInt((dataIni - hoje) / 1000);
     var mm = parseInt(ss / 60);  
     var hh = parseInt(mm / 60);  
     var dd = parseInt(hh / 24);   
@@ -28,7 +28,7 @@ function atualizaContador()
     minutos = (toString(mm).length) ? mm+' min e ' : '';  
     segundos = ss+' seg';
 
-    porcentagem = ((280 - dd) / 280) * 100;
+    porcentagem = (1-(dd / 280)) * 100;
     
     if (dd+hh+mm+ss > 0) 
     {
