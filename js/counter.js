@@ -7,9 +7,9 @@
 function atualizaContador() 
 {  
     var hoje = new Date();
-    var dataIni = new Date(2018, 11, 11);
+    var dataFim = new Date(2018, 11, 11);
 
-    var ss = parseInt((dataIni - hoje) / 1000);
+    var ss = parseInt((dataFim - hoje) / 1000);
     var mm = parseInt(ss / 60);  
     var hh = parseInt(mm / 60);  
     var dd = parseInt(hh / 24);   
