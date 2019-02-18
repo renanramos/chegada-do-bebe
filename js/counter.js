@@ -40,5 +40,7 @@ function atualizaContador()
         document.getElementById("progressBar").style.width = porcentagem+'%';
         document.getElementById("span-value").textContent = parseFloat(porcentagem.toFixed(2))+'%';
         setTimeout(atualizaContador,1000);  
+    }else{
+        document.getElementById("progressBar").style.width = '100%';
     }
 } 
